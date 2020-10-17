@@ -1,4 +1,5 @@
 # Options Pricing
+*uncompleted*
 Pricing lookback, barrier, and vanilla options on fixed income and equity securities with Binomial, Trinomial, Finite Difference, and Monte Carlo Simulation in Euler Scheme with variance reduction techniques.
 
 * Past 0. Visualize what stock price looks like when it follows Geometric Brownian Motion (GBM)  
