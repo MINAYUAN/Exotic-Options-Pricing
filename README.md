@@ -33,5 +33,5 @@ Using variance reduction technical , the difference between my estiamtion and th
 
 Pricing lookback, barrier, and vanilla options on fixed income and equity securities with Binomial, Trinomial, Finite Difference, and Monte Carlo Simulation in Euler Scheme with variance reduction techniques.
 
-### Part 3. Does American Put Hold Higher Value Than European Put?
+## Part 3. Does American Put Hold Higher Value Than European Put?
 
