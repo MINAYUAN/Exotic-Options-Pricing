@@ -27,13 +27,16 @@ Generating 1,000,000 simualtion of stock price at time T following the Geometric
 The estimate price is **$18.2566** using Monte Carlo, which is **$0.0271** away from the Black-Scholes value. 
 
 ### Monte Carlo with Variance Reduction Technique <br/>
-Antithetic Variates is a widely used varaince reduction. The general idea is generating asquence of uniformly distribution vairables {U}, then using inverse-transformation method, Y1 = h(F<sup>-1</sup>(U)) and Y2 = h(F<sup>-1</sup>(1-U)), under some function h(.) will be negatively correlated. and the antithetic variates estimate using Y1 and Y2 will have lower variance than either one of Y1 or Y2 along.
+Antithetic Variates is a widely used varaince reduction technique. The general idea is generating asquence of uniformly distribution vairables {U}, then using inverse-transformation method, Y1 = h(F<sup>-1</sup>(U)) and Y2 = h(F<sup>-1</sup>(1-U)), under some function h(.) will be negatively correlated. and the antithetic variates estimate using Y1 and Y2 will have lower variance than either one of Y1 or Y2 along.
 
 Using variance reduction technical , the difference between my estiamtion and the Black-Scholes value is reduced to **$0.010649**.
 
 Pricing lookback, barrier, and vanilla options on fixed income and equity securities with Binomial, Trinomial, Finite Difference, and Monte Carlo Simulation in Euler Scheme with variance reduction techniques.
 
-## Part 3. Does American Put Hold Higher Value Than European Put?
-American put has higher price than European put that shares the same characteristics in general. The higher prices is premium for additional option that comes with American option, where American put may be advantage to exercise early. The difference is greater when the put is in the money, and less when the put is out of the money. In this graph, the strike price for both option is \$100.
+## Part 3. Does American Put Hold Higher Value Than European Put? 
+### Feature: Binomial Method
+American put has higher price than European put that shares the same characteristics in general. The higher prices is premium for additional option that comes with American option, where American put may be advantage to exercise early. The difference is greater when the put is in the money, and less when the put is out of the money. In this graph, the strike price for both option is \$100.Option price calculated using binomial tree method
 
 <img width=“400” src="https://github.com/MINAYUAN/Option-Pricing/blob/main/q4p4.png">
+
+Assume the risk-free rate is 5%, the volatility of the stock price is 30%. The plot shows estiamte of the prices of European and American Put options with current stock prices varying from $80 to $120 in increment of $4.
