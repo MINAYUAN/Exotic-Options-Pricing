@@ -38,4 +38,4 @@ American put has higher price than European put that shares the same characteris
 
 <img width=“400” src="https://github.com/MINAYUAN/Option-Pricing/blob/main/q4p4.png">
 
-Assume the risk-free rate is 5%, the volatility of the stock price is 30%. The plot shows estiamte of the prices of European and American Put options with current stock prices varying from $80 to $120 in increment of $4.
+Assume the risk-free rate is 5%, the volatility of the stock price is 30%. The plot shows estiamte of the prices of European and American Put options with current stock prices varying from $80 to $120 in increment of $5.
