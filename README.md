@@ -34,4 +34,6 @@ Using variance reduction technical , the difference between my estiamtion and th
 Pricing lookback, barrier, and vanilla options on fixed income and equity securities with Binomial, Trinomial, Finite Difference, and Monte Carlo Simulation in Euler Scheme with variance reduction techniques.
 
 ## Part 3. Does American Put Hold Higher Value Than European Put?
+American put has higher price than European put that shares the same characteristics in general. The higher prices is premium for additional option that comes with American option, where American put may be advantage to exercise early. The difference is greater when the put is in the money, and less when the put is out of the money. In this graph, the strike price for both option is \$100.
 
+<img width=“400” src="https://github.com/MINAYUAN/Option-Pricing/blob/main/q4p4.png">
