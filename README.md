@@ -1,5 +1,5 @@
 # Options Pricing
-## Part 1. Visualize Stock Price Movements - Monte Carlo <br/>
+## Part 1. Visualize Stock Price Movements - Geometric Brownian Motion with Monte Carlo <br/>
 A stock that follows Geometric Brownian Motion has a dynamic below: 
 <img src="http://latex.codecogs.com/svg.latex?S_t=S_0&space;e^{\sigma&space;W_t&plus;(r-\sigma^2/2)t}" title="http://latex.codecogs.com/svg.latex?S_t=S_0 e^{\sigma W_t+(r-\sigma^2/2)t}" />
 
