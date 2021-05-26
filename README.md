@@ -5,9 +5,9 @@ Given a stock of company ABC that follows the Geometric Brownian Motion, we are 
 A stock that follows the Geometric Brownian Motion has a dynamic (closed form solution to the Geometric Brownian Motion SDE) below: 
 <img src="http://latex.codecogs.com/svg.latex?S_t=S_0&space;e^{\sigma&space;W_t&plus;(r-\sigma^2/2)t}" title="http://latex.codecogs.com/svg.latex?S_t=S_0 e^{\sigma W_t+(r-\sigma^2/2)t}" />
 
-For our stock ABC, we have time T = 10 years, an annualized expected return of the stock r = 0.04 or 4%, an annulized expected volatility or standard deviation of the return &sigma;  = 0.18 or 18%, initial stock price of S<sub>0</sub>= $88, and a random variation W<sub>t</sub> - a standard Brownian Motion process following Normal distribution of mean 0 and variance 1.
+For our stock ABC, we have time T = 10 years, an annualized expected return of the stock r = 0.04 or 4%, an annulized expected volatility or standard deviation of the return &sigma;  = 0.35 or 35%, initial stock price of S<sub>0</sub>= $88, and a random variation W<sub>t</sub> - a standard Brownian Motion process following Normal distribution of mean 0 and variance 1.
 
-By dividing up the time range of T = 10 years into into a greater number of equal steps ie. 1000 steps, the simulations better represent the dynamic of stock price. In this figure, I compare expected stock price simulation when using 10 steps versus 1000 steps. I computed E[S<sub>n</sub>] for each step within [0,10] and plot all paths in one graph.
+By dividing up the time range of T = 10 years into into a greater number of equal steps ie. 1000 steps, the simulations better represent the dynamic of stock price. In this figure, I compare expected stock price simulation when using 10 steps versus 1000 steps. I computed E[S<sub>n</sub>] for each step within T = [0,10] and plot all paths in one graph.
 
 <img width=“964” src="https://github.com/MINAYUAN/Option-Pricing/blob/main/3.png">
 
