@@ -1,11 +1,13 @@
 # Options Pricing
 ## Part 1. Visualize Stock Price Movements - Geometric Brownian Motion with Monte Carlo <br/>
-A stock that follows Geometric Brownian Motion has a dynamic below: 
+Given a stock of company ABC that follows the Geometric Brownian Motion, we are interested in visualizing its possible price paths over a period of 10 days.
+
+A stock that follows the Geometric Brownian Motion has a dynamic (closed form solution to the Geometric Brownian Motion SDE) below: 
 <img src="http://latex.codecogs.com/svg.latex?S_t=S_0&space;e^{\sigma&space;W_t&plus;(r-\sigma^2/2)t}" title="http://latex.codecogs.com/svg.latex?S_t=S_0 e^{\sigma W_t+(r-\sigma^2/2)t}" />
 
-where T = 10, r = 0.04, \sigma = 0.2, S<sub>0</sub>= $88 and W<sub>t</sub> is a Standard Brownian motion process.
+For our stock ABC, we have time T = 10 days, an annualized expected return of the stock r = 0.04 or 4%, an annulized expected volatility or standard deviation of the return \Sigma = 0.2 or 20%, initial stock price of S<sub>0</sub>= $88, and a random variation W<sub>t</sub> is a Standard Brownian Motion process (following Normal distribution of mean 0 and variance 1.
 
-By dividing up the time range T from [0,1000] into a greater number of equal steps, the simulations better represent the dynamic of stock price. In this figure, I compare expected stock price simulation when using 10 steps versus 1000 steps. I computed E[S<sub>n</sub>] for each step within [0,10] and plot all paths in one graph.
+By dividing up the time range of T = 10 days into into a greater number of equal steps ie. 1000 steps, the simulations better represent the dynamic of stock price. In this figure, I compare expected stock price simulation when using 10 steps versus 1000 steps. I computed E[S<sub>n</sub>] for each step within [0,10] and plot all paths in one graph.
 
 <img width=“964” src="https://github.com/MINAYUAN/Option-Pricing/blob/main/3.png">
 
